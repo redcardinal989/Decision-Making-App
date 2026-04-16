@@ -1,0 +1,26 @@
+.container {
+    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(133, 10, 138);
+  border-end-end-radius: 10px;
+  height: 600px;
+}
+
+.container div {
+  background-color: #F5F5DC;
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;  
+  font-size: 30px;
+  border-radius: 10px;
+  color:black;
+}
+.container div:hover{
+    background-color: #E4D5B7;
+}
+body{
+    background:purple;
+}
